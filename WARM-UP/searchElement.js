@@ -29,7 +29,7 @@
 // console.log(numbers);
 
 function largestNumber(arr) {
-  let largest = 0;
+  let largest = arr[0]; //i should be arr[0] or ot can be -Infinity for finding largest and Infinity to find greatest
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > largest) {
       largest = arr[i];
