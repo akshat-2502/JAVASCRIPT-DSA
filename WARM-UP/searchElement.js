@@ -27,3 +27,18 @@
 
 // let numbers = negativeNumber(arr1);
 // console.log(numbers);
+
+function largestNumber(arr) {
+  let largest = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      largest = arr[i];
+    }
+  }
+  return largest;
+}
+
+arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 10, 15, 14, 20, 99, 25, 75, 999];
+
+let number1 = largestNumber(arr2);
+console.log(number1);
