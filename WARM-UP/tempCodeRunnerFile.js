@@ -1,0 +1,1 @@
+searchElement(arr, 34);
