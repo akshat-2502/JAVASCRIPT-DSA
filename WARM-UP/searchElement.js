@@ -13,17 +13,17 @@
 
 // searchElement(arr, 34);
 
-function negativeNumber(arr) {
-  let counter = 0;
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < 0) {
-      counter += 1;
-    }
-  }
-  return counter;
-}
+// function negativeNumber(arr) {
+//   let counter = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 0) {
+//       counter += 1;
+//     }
+//   }
+//   return counter;
+// }
 
-let arr1 = [1, , 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr1 = [1, , 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-let numbers = negativeNumber(arr1);
-console.log(numbers);
+// let numbers = negativeNumber(arr1);
+// console.log(numbers);
